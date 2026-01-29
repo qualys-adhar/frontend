@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
     hmr: {
       overlay: false,
     },
-    allowedHosts: ["book-ai-frontend-csu35.ondigitalocean.app"],
+    allowedHosts: ["book-ai-frontend-csu35.ondigitalocean.app", "book-ai.adharbattulwar.com"],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean,
